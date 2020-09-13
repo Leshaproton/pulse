@@ -1,0 +1,27 @@
+@media (max-width: 375px) {
+    .promo {
+        .header {
+            &__logo {
+                display: block;
+                margin: 0 auto;
+            }
+            &__official, &__contacts {
+                display: none;
+            }
+        }
+        &__wrapper {
+            h1 {
+                font-size: 30px;
+                text-align: center;
+            }
+            h2 {
+                font-size: 20px;
+                text-align: center;
+            }
+            &__icons {
+                display: block;
+            }
+        }
+
+    }
+}
